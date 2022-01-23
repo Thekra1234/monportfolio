@@ -1,0 +1,57 @@
+body{
+    background-color: lightcyan;
+}
+@media (min-width: 600px){
+    .conteneur{
+        
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        background: pink;
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+
+.element {
+    border: 5px solid red;
+    text-align: center;
+    margin: 5px;
+    font-size: 40px;
+    flex-basis: 20%;
+    height: 150px;
+}
+.el1{  
+    order: 1;
+}
+.el2 {
+    order: 2;
+
+}
+.el3 {
+    order: 3;
+
+}
+
+p {
+    position: relative;
+    left: 15%;
+    top: 50%;
+    transform: translate(-50%, -50%);  
+}
+@media screen and (max-width: 992px) {
+    body{
+        background-color: blue;
+    } 
+}
+@media screen and (max-width: 600px) {
+    body{
+        background-color: rgb(128, 0, 117);
+    }   
+}
+
